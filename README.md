@@ -28,14 +28,14 @@ The dataset used in this project includes information about Netflix content such
 - `description`: Brief description of the content
 
 # Business Problems and Solutions
-## 1. Select Title and Director for All Movies
+1. Select Title and Director for All Movies
 
 ```sql
 SELECT title, director 
 FROM netflix
 WHERE type = 'Movie';
 
-** 2. Find Distinct Types Available in the Netflix Titles Table
+ 2. Find Distinct Types Available in the Netflix Titles Table
 SELECT DISTINCT(type) 
 FROM netflix;
 
