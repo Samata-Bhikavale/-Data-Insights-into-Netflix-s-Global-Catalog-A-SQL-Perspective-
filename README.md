@@ -35,7 +35,7 @@ SELECT title, director
 FROM netflix
 WHERE type = 'Movie';
 
-## 2. Find Distinct Types Available in the Netflix Titles Table
+** 2. Find Distinct Types Available in the Netflix Titles Table
 SELECT DISTINCT(type) 
 FROM netflix;
 
